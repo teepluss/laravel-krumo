@@ -1,6 +1,10 @@
 {
     "name": "teepluss/krumo",
-    "description": "",
+    "description": "To put it simply, Krumo is a replacement for print_r() and var_dump().",
+    "keywords": ["laravel", "print_r", "var_dump", "debug"],
+    "homepage": "https://bitbucket.org/teepluss/laravel4-krumo/",
+    "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Teepluss",
@@ -14,6 +18,11 @@
     "autoload": {
         "psr-0": {
             "Teepluss\\Krumo": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
         }
     },
     "minimum-stability": "dev"
