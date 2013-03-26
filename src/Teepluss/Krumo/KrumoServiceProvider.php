@@ -28,6 +28,7 @@ class KrumoServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
+		// Register
 		$this->app['krumo'] = $this->app->share(function($app)
 		{
 			return new krumo;
